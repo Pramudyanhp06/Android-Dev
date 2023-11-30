@@ -69,12 +69,12 @@ class _UserProfileState extends State<UserProfile> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Text(
-                      'Nizham Pramudya',
+                      'Pramudya Nizham',
                       style:
                           TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                     ),
                     Text(
-                      'Mahasiswa',
+                      'Teknik Informatika Internasional',
                       style: TextStyle(fontSize: 18),
                     ),
                   ],
@@ -91,7 +91,6 @@ class _UserProfileState extends State<UserProfile> {
                   leading: Icon(
                     Icons.assignment_ind_outlined,
                     color: Colors.grey,
-                    size: 15,
                   ),
                   title: Text(
                     '201110244',
@@ -101,7 +100,7 @@ class _UserProfileState extends State<UserProfile> {
                 ListTile(
                   leading: Icon(Icons.email, color: Colors.grey),
                   title: Text(
-                    'Pramudyanhp@gmail.com',
+                    'Pramudyanhp06@gmail.com',
                     style: TextStyle(fontSize: 12),
                   ),
                 ),
